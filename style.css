@@ -305,6 +305,31 @@ ul a{
     padding-top: 25px;
 }
 
-.copyroght{
+.copyright{
     padding-top: 5px;
+}
+
+@media (max-width: 768px) {
+  .panel-ops {
+    display: none;
+    flex-direction: column;
+    background-color: #222f3d;
+    padding: 10px;
+    position: absolute;
+    top: 105px;
+    left: 0;
+    width: 100%;
+  }
+
+  .panel-ops.active {
+    display: flex;
+  }
+
+  .nav-search {
+    width: 90%;
+  }
+
+  .box {
+    width: 90%;
+  }
 }
